@@ -1,0 +1,138 @@
+header{
+    background-color: #d9d9d9;
+}
+
+.bg-light {
+    background-color: #d9d9d9!important;
+}
+
+.gradiant{
+    background: -webkit-linear-gradient(#ec00ff, #1400ff) !important ; 
+    -webkit-background-clip: text !important ;
+    -webkit-text-fill-color: transparent !important ;
+}
+
+.usuario{
+display: inline-flex;
+margin: 25px;
+}
+
+.perfil{
+    margin-right: 25px;
+}
+
+.nome-usuario{
+    margin-top: 5px;
+}
+
+.cinza{
+    background-color: #d9d9d9;
+}
+
+.roxo{
+    background-color: #c79cff;
+}
+
+.navbar-collapse{
+    place-content: center !important;
+}
+
+.nav-item{
+    margin: 5px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.container-fluid{
+    justify-content: flex-start !important;
+}
+
+.navbar-nav{
+    flex-direction: row !important;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+    place-content: center;
+}
+
+.navbar{
+    place-content: center !important;
+}
+
+.margin-header {
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.barra{
+    display: flex;
+    justify-content: space-between;
+}
+
+.centralizar{
+    text-align: -webkit-center;
+}
+
+.imagem-grafico{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10%;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: -webkit-linear-gradient(#ec00ff, #1400ff);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    padding: 10px 15px;
+    border: none;
+  }
+  
+  .openbtn:hover {
+    background-color: transparent;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 16px;
+  }
+
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+  }
